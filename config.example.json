@@ -1,0 +1,18 @@
+{
+  "timezone": "Asia/Shanghai",
+  "holidays": ["2026-10-01", "2026-10-02", "2026-10-03"],
+  "default_wallpaper": "/System/Library/Desktop Pictures/Sonoma.heic",
+  "rules": {
+    "workday": [
+      {"start": "10:00", "end": "18:00", "wallpaper": "/path/to/work.jpg"},
+      {"start": "18:00", "end": "19:00", "wallpaper": "/path/to/transition.jpg"},
+      {"start": "19:00", "end": "10:00", "wallpaper": "/path/to/rest.jpg"}
+    ],
+    "restday": [
+      {"start": "00:00", "end": "24:00", "wallpaper": "/path/to/restday.jpg"}
+    ],
+    "holiday": [
+      {"start": "00:00", "end": "24:00", "wallpaper": "/path/to/holiday.jpg"}
+    ]
+  }
+}
